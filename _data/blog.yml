@@ -1,0 +1,29 @@
+# blog page sections
+- name: ABOUT
+  url: "{{ site.baseurl }}/#about-me"
+  class: "page-scroll"
+# edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
+- name: CAREER
+  url: "{{ site.baseurl }}/#career"
+  class: "page-scroll"
+
+- name: SKILLS
+  url: "{{ site.baseurl }}/#skills"
+  class: "page-scroll"
+
+- name: PROJECTS
+  url: "{{ site.baseurl }}/#projects"
+  class: "page-scroll"
+
+- name: LINKS
+  url: "{{ site.baseurl }}/#links"
+  class: "page-scroll"
+
+
+
+
+
+
+
+# Don't display donation page: change donation to off at file '_config.yml'
+

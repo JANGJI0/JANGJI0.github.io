@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: GitHub, Java, JavaSpring, JavaScript, JSP, Css, CI/CD 
+percentage: 80, 80, 50, 50, 50, 50, 30

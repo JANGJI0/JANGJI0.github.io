@@ -1,0 +1,58 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: 구디아카데미
+    i18n: company_a
+  desc:
+    detail: 클라우드(AWS)활용 자바/스프링 개발 부트캠프90기 6개월 과정 수료
+    i18n: company_a_desc
+  date:
+    detail: 2025-03 ~ 2025-09
+    i18n: company_a_date
+  job:
+    detail: AWS, 자바/스프링 BackEnd 웹개발
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: 레드원건축사사무소
+    i18n: company_b
+  desc:
+    detail: 실시설계 및 현상설계 업무(지하역사,지상역사 위주) / PM 외주 작업 1건
+    i18n: company_b_desc
+  date:
+    detail: 2021-11 ~ 2024-08
+    i18n: company_b_date
+  job:
+    detail: 건축설계
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
+    detail: 단우파트너스건축사사무소
+    i18n: company_c
+  desc:
+    detail: 실시설계 업무
+    i18n: company_c_desc
+  date:
+    detail: 2021-01 ~ 2021-08
+    i18n: company_c_date
+  job:
+    detail: 건축설계
+    i18n: company_c_job
+  icon: fa-plus-square
+
+- name:
+    detail: 세광종합건축사사무소
+    i18n: company_d
+  desc:
+    detail: 실시설계 업무
+    i18n: company_d_desc
+  date:
+    detail: 2020-04 ~ 2020-07
+    i18n: company_d_date
+  job:
+    detail: 건축설계(실습 후 계약 만료)
+    i18n: company_d_job
+  icon: fa-plus-square
