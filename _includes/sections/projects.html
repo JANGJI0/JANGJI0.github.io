@@ -1,44 +1,47 @@
 <div class="container" id="i18_projects">
-    <div class="row m-b-lg">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
-        </div>
+  <div class="row m-b-lg">
+    <div class="col-lg-12 text-center">
+      <div class="navy-line"></div>
+      <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
     </div>
-    <div class="row">
-        {% for project in site.data.index.projects %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
-            {% if forloop.last %}
-                {% if forloop.last == forloop.first %}
-            <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
-                {% else %}
-            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
-                {% endif %}
-            {% else %}
-            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
-            {% endif %}
-              <div class="team-member">
-                  <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                  <h4>
-                  {% if project.url %}
-                  <a href="{{ project.url }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
-                  {% elsif project.repo %}
-                  <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
-                  {% else %}
-                  <span class="navy">{{ project.name }}</span>
-                  {% endif %}
-                  </h4>
-                  <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
-                  {% if project.repo %}
-                  <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn">
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
-                      <div style="height: 10px;"></div>
-                  </div>
-                  {% endif %}
-              </div>
+  </div>
+
+  {% for project in site.data.index.projects %}
+  <div class="row project-item">
+    <!-- 이미지 영역 -->
+    <div class="col-md-6">
+      <div class="project-wrapper">
+        <a href="{{ project.url }}" target="_blank">
+          <img src="{{ project.img | prepend: site.baseurl }}" 
+               class="img-responsive project-img"
+               alt="{{ project.name }}">
+          <div class="overlay">
+            <div class="overlay-text">클릭시 사이트로 이동합니다</div>
           </div>
-      {% endfor %}
+        </a>
+      </div>
     </div>
+
+    <!-- 설명 영역 -->
+    <div class="col-md-6">
+      <h3 class="navy" style="display: inline-block; margin-right: 10px;">{{ project.name }}</h3>
+      <!-- GitHub 아이콘 -->
+      {% if project.repo %}
+        <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank" style="display: inline-block; vertical-align: middle;">
+          <i class="fa-brands fa-github fa-lg"></i>
+        </a>
+      {% endif %}
+      <div class="project-detail">{{ project.desc }}</div>
+
+      <!-- 상세 설명 추가 -->
+      {% if project.detail %}
+      <div class="project-detail">
+        {{ project.detail | markdownify }}
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+  <hr>
+  {% endfor %}
 </div>
-<br>

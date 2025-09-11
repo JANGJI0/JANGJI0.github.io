@@ -1,23 +1,73 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: SemiProject
+- name: 학원LMS(SemiProject)
   i18n: semi
   gh_user: semi-lms
   repo: lms
-  img: /static/assets/img/landing/jekyll.png
+  url: https://semi-lms.github.io/lms
+  img: /static/assets/img/landing/semiproject.png
   desc: This is my Semi Project. It contains features I built with HTML, CSS, and JavaScript.
+  detail: |
+    **개발 기간:** 2025.06.01 ~ 2025.06.31 (4주)<br>
+    **기능:**  
+    - 회원가입 및 로그인  
+    - 상품 관리 (추가, 수정, 삭제)  
+    - 장바구니, 주문, 리뷰 기능  
+
+    **개발 환경:**  
+    - OS: Windows 10  
+    - Language: Java(Spring Boot), MyBatis, JSP  
+    - DB: MySQL, OracleDB  
+    - Tools: Eclipse, IntelliJ, GitHub
 
 - name: MiniProject
   i18n: mini
   gh_user: jrj1533
   repo: shoppingMall
+  url: https://semi-lms.github.io/lms
   img: /static/assets/img/landing/miniproject.png
   desc: This is my Mini Project. It focuses on backend development with Spring Boot.
 
-- name: FinalProject
+- name: Broadcast-Groupware
   i18n: final
   gh_user: kjojk91
   repo: Broadcast-Groupware
+  url: https://semi-lms.github.io/lms
   img: /static/assets/img/landing/finalproject.png
-  desc: This is my Final Project. It integrates full-stack skills with frontend + backend.
+  desc: 방송국 내부 업무 효율화를 위한 그룹웨어 시스템 캘린더, 예약, 근태, 게시판, 전자결재 등 방송국 업무를 통합 관리합니다.<br>
+  detail: |
+    **프로젝트 개요**  
+    - 방송국 내부 업무를 웹으로 통합 관리하여 효율화  
+    - 주요 기능: 캘린더, 예약, 근태, 게시판, 전자결재  
+    - 역할 기반 기능 분리 (관리자 / 직원)  
+
+    **사용자 역할 및 기능**
+     **관리자**
+      - 회원 관리  
+      - 회의실, 편집실, 차량 예약 관리  
+      - 캘린더 일정 등록/수정/삭제  
+      - 게시판 관리 및 공지사항 등록  
+
+    **직원**
+      - 개인 일정 확인 및 관리  
+      - 예약 신청 (회의실, 편집실, 차량)  
+      - 근태 등록 (출근, 퇴근, 외근)  
+      - 게시판 글 작성/수정/삭제  
+      - 결재 문서 확인 및 서명 제출  
+
+    **개발 환경**
+    - OS: Windows 10  
+    - Language: Java 21  
+    - Backend: Spring Boot  
+    - Frontend: JSP, JSTL, EL, jQuery  
+    - Database: MySQL  
+    - ORM: JPA / MyBatis  
+    - Build Tool: Maven  
+    - Server: Embedded Tomcat  
+    - Tools: Lombok 등  
+
+    **서비스 환경**  
+    - OS: Ubuntu (20.04)  
+    - Platform: AWS Lightsail  
+    - DB: MySQL

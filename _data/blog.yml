@@ -15,9 +15,6 @@
   url: "{{ site.baseurl }}/#projects"
   class: "page-scroll"
 
-- name: LINKS
-  url: "{{ site.baseurl }}/#links"
-  class: "page-scroll"
 
 
 

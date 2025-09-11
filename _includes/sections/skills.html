@@ -1,15 +1,72 @@
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center" id="i18_skills">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
-        </div>
+  <div class="row">
+    <div class="col-lg-12 text-center" id="i18_skills">
+      <div class="navy-line"></div>
+      <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
     </div>
-    <div class="row features-block">
-        <div class="wow zoomIn col-lg-6 col-lg-offset-3">
-            <canvas id="{{ site.data.index.skills.id }}" height="500" width="500"></canvas>
-        </div>
-        <div class="col-lg-1"></div>
+  </div>
+
+  <div class="row features-block">
+    <!-- 왼쪽 : Radar 차트 -->
+    <div class="col-md-6 text-center">
+      <canvas id="{{ site.data.index.skills.id }}" height="400" width="400"></canvas>
+    </div>
+
+    <!-- 오른쪽 : 카드형 아이콘 -->
+   <div class="row text-center">
+  <!-- Front-End -->
+  <div class="col-md-3">
+    <div class="skill-card">
+      <h4>Front-End</h4>
+      <ul>
+        <li><i class="fab fa-html5"></i> HTML5</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+        <li><i class="fab fa-js"></i> JavaScript/jQuery</li>
+        <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Back-End -->
+  <div class="col-md-3">
+    <div class="skill-card">
+      <h4>Back-End</h4>
+      <ul>
+        <li><i class="fa-brands fa-java"></i> Java</li>
+        <li><i class="fa-solid fa-leaf"></i> Spring</li>
+        <li><i class="fa-solid fa-leaf"></i> Spring Boot</li>
+        <li><i class="fa-solid fa-code"></i> JSP/JSTL</li>
+        <li><i class="fa-solid fa-database"></i> MyBatis</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Database -->
+  <div class="col-md-3">
+    <div class="skill-card">
+      <h4>Database</h4>
+      <ul>
+        <li><i class="fa-solid fa-database"></i> MariaDB</li>
+        <li><i class="fa-solid fa-database"></i> OracleDB</li>
+        <li><i class="fa-solid fa-database"></i> MySQL</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Tool -->
+  <div class="col-md-3">
+    <div class="skill-card">
+      <h4>Tool</h4>
+      <ul>
+        <li><i class="fab fa-github"></i> GitHub</li>
+        <li><i class="fa-solid fa-code"></i> Eclipse</li>
+        <li><i class="fa-solid fa-code"></i> STS4</li>
+        <li><i class="fa-solid fa-cloud"></i> AWS Lightsail</li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </div>
         <script>
         var ctx = document.getElementById("{{ site.data.index.skills.id }}");
         var data = {

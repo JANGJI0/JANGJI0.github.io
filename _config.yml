@@ -16,19 +16,23 @@ author:  # change following line to your infomation.
   last_name: Jang  # Be used at index page about me section.
   avatar: /static/assets/img/landing/JANGJIYOUNG.jpg  # upload your avatar at directory and edit it.
   github_username: JANGJI0  # Leave blank if you don't have now
-  linkedin_id: jangji0 # Leave blank if you don't have now
+ # linkedin_id: jangji0 # Leave blank if you don't have now
   facebook_username:   # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
   email: qlvm2@naver.com  # Leave blank if you don't have now
   cv:   # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: fa-github
-    - name: fa-java21
+    - name: fa-brands fa-github
+    - name: fa-brands fa-java
   skill_icon2:
-    - name: fa-html5
-    - name: fa-css3
-  desc: 성실과 노력으로 도전적인 개발자가 되겠습니다.   # Describe yourself.
+    - name: fa-brands fa-html5
+    - name: fa-brands fa-css3
+  desc: <span style="font-size:18px; color:#000000;">건축설계를 통해 문제를 구조화해 결과물로 구현하는 힘을 길렀던 백엔드 지망생입니다.</span><br>
+        건축에서 요구조건을 정리해 도면과 구조를 세우고 시공•검토로 완성하듯, <br>
+        개발에서도 요구사항을 ERD와 API 설계로 구조화 하고 구현테스트•코드리뷰로 품질을 확보 하겠습니다. <br>
+        현재 <span style="font-size:15px; color:#89CFF0;">Java/Spring Boot, MyBatis, MySQL, REST, Git</span> 등을 학습하며, 오류를 해결 하겠습니다.<br> 
+        <span style="font-size:15px; color:#000000;">배려하는 협업과 개선된 커뮤니케이션으로 변경에 강한 백엔드를 만들겠습니다. </span>  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
