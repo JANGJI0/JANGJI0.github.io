@@ -1,22 +1,23 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
+- name: SemiProject
+  i18n: semi
+  gh_user: semi-lms
+  repo: lms
   img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use Javascript to get repo's information all my repos have only one request.
+  desc: This is my Semi Project. It contains features I built with HTML, CSS, and JavaScript.
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: MiniProject
+  i18n: mini
+  gh_user: jrj1533
+  repo: shoppingMall
+  img: /static/assets/img/landing/miniproject.png
+  desc: This is my Mini Project. It focuses on backend development with Spring Boot.
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: FinalProject
+  i18n: final
+  gh_user: kjojk91
+  repo: Broadcast-Groupware
+  img: /static/assets/img/landing/finalproject.png
+  desc: This is my Final Project. It integrates full-stack skills with frontend + backend.
