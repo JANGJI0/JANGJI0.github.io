@@ -1,19 +1,15 @@
 # blog page sections
 - name: ABOUT
-  url: "{{ site.baseurl }}/#about-me"
-  class: "page-scroll"
+  href: "/#about-me"
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
 - name: CAREER
-  url: "{{ site.baseurl }}/#career"
-  class: "page-scroll"
+  href: "/#career"
 
 - name: SKILLS
-  url: "{{ site.baseurl }}/#skills"
-  class: "page-scroll"
+  href: "/#skills"
 
 - name: PROJECTS
-  url: "{{ site.baseurl }}/#projects"
-  class: "page-scroll"
+  href: "/#projects"
 
 
 

@@ -4,13 +4,40 @@
     detail: 구디아카데미
     i18n: company_a
   desc:
-    detail: 클라우드(AWS)활용 자바/스프링 개발 부트캠프91기 6개월 과정 수료
+    detail: 
+            1. 객체지향 프로그래밍<br>
+              &nbsp;&nbsp;&nbsp;- JAVA 프로그래밍 언어 활용<br>
+              &nbsp;&nbsp;&nbsp;- 데이터베이스 활용<br><br>
+
+            2. 웹 표준 기술<br>
+              &nbsp;&nbsp;&nbsp;- HTML/CSS<br>
+              &nbsp;&nbsp;&nbsp;- BootStrap<br>
+              &nbsp;&nbsp;&nbsp;- JavaScript<br>
+              &nbsp;&nbsp;&nbsp;- jQuery<br><br>
+
+            3. 웹 백엔드 기술<br>
+              &nbsp;&nbsp;&nbsp;- JSP<br>
+              &nbsp;&nbsp;&nbsp;- Spring Framework<br><br>
+
+            4. 클라우드 컴퓨팅<br>
+              &nbsp;&nbsp;&nbsp;- AWS를 활용한 클라우드 서버 구축<br>
+              &nbsp;&nbsp;&nbsp;- Docker를 활용한 컨테이너 기술<br><br>
+
+            5. 기업 실무 프로젝트<br>
+              &nbsp;&nbsp;&nbsp;- 클라우드 활용 업무지원 시스템 구축 프로젝트(세미프로젝트)<br>
+              &nbsp;&nbsp;&nbsp;- 클라우드 활용 업무지원 시스템 구축 프로젝트(공통사항)<br><br>
+
+            6. K-Digital 특강 프로그램<br>
+              &nbsp;&nbsp;&nbsp;- 모의 면접<br>
+              &nbsp;&nbsp;&nbsp;- 기업 설명회<br>
+              &nbsp;&nbsp;&nbsp;- 수료식
+
     i18n: company_a_desc
   date:
     detail: 2025-03 ~ 2025-09
     i18n: company_a_date
   job:
-    detail: AWS, 자바/스프링 BackEnd 웹개발
+    detail: 클라우드(AWS)활용 자바/스프링 개발 부트캠프91기 6개월 과정 수료
     i18n: company_a_job
   icon: fa-plus-square
   present: true

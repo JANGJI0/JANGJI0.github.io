@@ -28,11 +28,11 @@
       <!-- GitHub 아이콘 -->
       {% if project.repo %}
         <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank" style="display: inline-block; vertical-align: middle;">
-          <i class="fa-brands fa-github fa-lg"></i>
+          <i class="fa-brands fa-github fa-2x"></i>
         </a>
       {% endif %}
       <div class="project-detail">{{ project.desc }}</div>
-
+      
       <!-- 상세 설명 추가 -->
       {% if project.detail %}
       <div class="project-detail">
@@ -40,6 +40,12 @@
       </div>
       {% endif %}
 
+      {% if project.detail2 %}
+      <div class="project-detail2">
+        {{ project.detail2 | markdownify }}
+      </div>
+      {% endif %}
+      
     </div>
   </div>
   <hr>
