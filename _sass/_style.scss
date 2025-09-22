@@ -1,3 +1,88 @@
+/* 배너 부분 큰화면 비율에도 커지지않고 유지되게 / carousel.html */
+#inSlider {
+  max-width: 1400px;   /* 원하는 최대 크기 */
+  margin: 0 auto;      /* 화면 가운데 정렬 */
+}
+
+
+/* 프로젝트 상세페이지 설정 */
+.project-detail-wrapper {
+  max-width: 1000px;   /* 폭 제한 */
+  margin: 0 auto;      /* 중앙 정렬 */
+  padding: 20px;
+}
+.project-detail-wrapper h1, 
+.project-detail-wrapper h2, 
+.project-detail-wrapper h3 {
+  font-weight: 600; /* 제목 강조 */
+}
+
+.project-detail-body {
+  display: inline-block; 
+  text-align: left;    /* 본문은 왼쪽 정렬 */
+}
+
+.project-detail-body h5 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.project-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+}
+
+.project-detail-wrapper table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.project-detail-wrapper th,
+.project-detail-wrapper td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.project-detail-wrapper th {
+  background: #f8f9fa;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+
+.project-detail-wrapper ul ul {
+  padding-left: 1em; /* 하위 목록은 더 좁게 */
+}
+
+/* Bootstrap 3에 검은색 버튼 추가 */
+.btn-dark {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+.btn-dark:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn-gray {
+  background-color: #6c757d; /* 중간 회색 */
+  color: #fff;              /* 글씨 흰색 */
+  border-color: #6c757d;
+}
+.btn-gray:hover {
+  background-color: #5a6268; /* 조금 더 어두운 회색 */
+  border-color: #545b62;
+}
+
+/* 끝*/
+
 /* 카드 디자인 */
 .skill-card {
   // background: #f8fcff;        /* 연한 배경 */
@@ -2648,12 +2733,11 @@ body {
     height: auto;
   }
   .header-back {
-    height: 100%;
-    width: 100%;
-    background-position: 50% 0;
-    background-repeat:  no-repeat;
-    background-size: cover;
-  }
+  width: 100%;
+  aspect-ratio: 16 / 9;  /* 항상 16:9 비율 */
+  background-size: cover;
+  background-position: center;
+}
   .carousel { 
   }
   .carousel-caption {
