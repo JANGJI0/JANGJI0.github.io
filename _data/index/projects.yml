@@ -8,12 +8,12 @@
   url: https://semi-lms.github.io/lms
   img: /static/assets/img/landing/finalproject.png
   desc: 방송국 내부 업무 효율화를 위한 그룹웨어 시스템입니다.<br>
-        캘린더, 예약, 근태, 게시판, 전자결재 등 방송국 업무를 통합 관리합니다.
+        캘린더, 예약, 근태, 게시판, 전자결재, 채팅 등 방송국 업무를 통합 관리합니다.
   detail: |
     **2025.08.01 ~ 2025.09.10**
     **프로젝트 개요**  
     - 방송국 내부 업무를 웹으로 통합 관리하여 효율화  
-    - 주요 기능: 캘린더, 예약, 근태, 게시판, 전자결재  
+    - 주요 기능: 캘린더, 예약, 근태, 게시판, 전자결재, <span style="background-color: #b2e0f5ff;">WebSocket</span>
     - 역할 기반 기능 분리 (관리자 / 직원)
   detail2: '[상세페이지](/blog/broadcast-groupware)'
     

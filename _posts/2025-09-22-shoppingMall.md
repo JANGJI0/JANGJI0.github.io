@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Broadcast-Groupware"
-subtitle: "FinalProject"
-permalink: /blog/broadcast-groupware
+title: "shoppingMall"
+subtitle: "MiniProject"
+permalink: /blog/shoppingMall
 ---
 
 <div style="margin:10px 0;">
-  <a href="https://github.com/JANGJI0/Broadcast-Groupware" target="_blank" class="btn btn-dark">GitHub</a>
+  <a href="https://github.com/jrj1533/shoppingMall" target="_blank" class="btn btn-dark">GitHub</a>
   <a href="https://www.erdcloud.com/d/885HpyDu2DsreRWr8" target="_blank" class="btn btn-gray">ERD</a>
   <a href="https://docs.google.com/spreadsheets/d/1nq_2JE1Glr-NHnPQepheWDQer0huWSuSwJrtRJHRLis/edit?gid=458429680#gid=458429680" target="_blank" class="btn btn-info">WBS</a>
   <a href="https://docs.google.com/spreadsheets/d/1NVzBaICrkpvecXyAXfLW_jw8Wl_FaJOsl7uvMSYpYas/edit?gid=2120964424#gid=2120964424" target="_blank" class="btn btn-warning">요구사항정의서</a>
