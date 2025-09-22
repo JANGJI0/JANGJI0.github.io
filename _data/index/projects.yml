@@ -40,7 +40,7 @@
 - name: 학원LMS(SemiProject)
   i18n: semi
   gh_user: semi-lms
-  repo: lms
+  repo: LMS
   url: https://semi-lms.github.io/lms
   img: /static/assets/img/landing/semiproject.png
   desc: 국비지원 코딩 학원을 베이스로 한 LMS 세미 프로젝트입니다.<br>
