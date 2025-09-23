@@ -1,3 +1,27 @@
+/* ========== IFRAME 카드 전용 CSS ========== */
+.iframe-card {
+  border: 0px solid #777879;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,.1);
+  width: 80%;   /* 카드 크기 줄이기 */
+}
+
+.iframe-wrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 비율 */
+  height: 0;
+}
+
+.iframe-wrap iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;  /* 카드 폭에 딱 맞게 */
+  height: 100%;
+  border: none;
+}
+
 /* 배너 부분 큰화면 비율에도 커지지않고 유지되게 / carousel.html */
 #inSlider {
   max-width: 1400px;   /* 원하는 최대 크기 */

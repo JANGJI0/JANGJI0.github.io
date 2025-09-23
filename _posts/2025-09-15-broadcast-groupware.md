@@ -62,6 +62,7 @@ permalink: /blog/broadcast-groupware
 - #### 로그인 기능
   - <span style="background-color: #b2e0f5ff;">Spring Security</span> 사용
   - session으로 로그인 상태 유지
+  - 비밀번호 찾기 메일발송 기능
 - #### 메인화면
   - 출퇴근, 휴가, 결재, 예약, 공지사항 등 레이아웃 구성 및 클릭 시 해당 페이지로 이동
   - 방송그룹웨어이므로 실시간 뉴스 영상 표시
@@ -99,21 +100,25 @@ permalink: /blog/broadcast-groupware
 
 ## 📝 화면설계서
 
-<iframe src="https://drive.google.com/file/d/1wnuqzsuz-Srgg0F3ATzhJQ327UF5pzv3/preview"
-        frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+<iframe class="iframe-card"
+        src="https://drive.google.com/file/d/1wnuqzsuz-Srgg0F3ATzhJQ327UF5pzv3/preview"
+        width="960" height="450" allowfullscreen>
 </iframe>
 
 ---
 
 ## 🎤 발표PPT
 
-<iframe src="https://drive.google.com/file/d/1NIXjdUJAwdP4z8FE_VifDaIZwn5kDVho/preview"
-        frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+<iframe class="iframe-card"
+        src="https://drive.google.com/file/d/1NIXjdUJAwdP4z8FE_VifDaIZwn5kDVho/preview"
+        width="960" height="450"
+        allowfullscreen>
 </iframe>
 
 ---
 
 ## 🎬 시연영상
-<iframe src="https://drive.google.com/file/d/18Fea2qlCaUQ42ipuhO4cR2Zbb7ynFV4I/preview"
-        frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+<iframe class="iframe-card"
+        src="https://drive.google.com/file/d/18Fea2qlCaUQ42ipuhO4cR2Zbb7ynFV4I/preview"
+        width="960" height="400" allowfullscreen>
 </iframe>
