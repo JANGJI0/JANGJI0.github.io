@@ -35,7 +35,7 @@
     - 주요 기능: 장바구니, 구매, 할인쿠폰, 배송 기능
     - 역할 기반 기능 분리 (관리자 / 판매자 / 구매자)
     - <span style="background-color: #b2e0f5ff;">시간상 부족해서 미흡 (완성 못하고 stop)</span>
-  detail2: '[상세페이지](/blog/shoppingMall)'
+  detail2: '[상세페이지](//blog/shoppingMall)'
 
 - name: 학원LMS(SemiProject)
   i18n: semi
